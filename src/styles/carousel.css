@@ -1,0 +1,18 @@
+/* src/components/Carousel.css */
+.carousel-container {
+    height: 50vh; /* Adjust based on your design needs */
+  }
+  
+  /* Media queries for more control */
+  @media (min-width: 768px) {
+    .carousel-container {
+      height: 60vh;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .carousel-container {
+      height: 70vh;
+    }
+  }
+  
