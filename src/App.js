@@ -9,6 +9,7 @@ import EventsPage from './pages/EventsPage';
 import BirthdaysPage from './pages/BirthdaysPage';
 import SeminarsPage from './pages/SeminarsPage';
 import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 // Import other pages similarly
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/events/birthdays" element={<BirthdaysPage />} /> 
         <Route path="/events/seminars" element={<SeminarsPage />} /> 
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="/admin/dashboard" element={<AdminDashboardPage />} />
         <Route path="/customer/dashboard" element={<CustomerDashboardPage />} />
         <Route path="/vendor/dashboard" element={<VendorDashboardPage />} />
