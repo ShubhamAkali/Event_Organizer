@@ -1,12 +1,20 @@
-import { login } from '../api/auth';
+// src/services/authService.js
+import { login, registerUser as registerApiUser } from '../api/auth';
 
 export const loginService = async (email, password) => {
   try {
     const data = await login(email, password);
-    // Handle login data
     return data;
   } catch (error) {
-    // Handle error
+    throw error;
+  }
+};
+
+export const registerService = async (userData) => {
+  try {
+    const data = await registerApiUser(userData);
+    return data;
+  } catch (error) {
     throw error;
   }
 };
