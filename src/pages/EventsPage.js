@@ -13,25 +13,25 @@ const EventsPage = () => {
           <Link to="/events/birthdays" className="w-full md:w-1/2 px-2 mb-4">
             <div className="relative w-full h-100vh">
               <img src="/assets/images/event5.webp" alt="Birthdays" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-5xl font-bold">Birthdays</div>
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-3xl font-bold">Birthdays</div>
             </div>
           </Link>
           <Link to="/events/seminars" className="w-full md:w-1/2 px-2 mb-4">
             <div className="relative w-full h-100vh">
               <img src="/assets/images/event6.webp" alt="Seminars" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-5xl font-bold">Seminars</div>
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-3xl font-bold">Seminars</div>
             </div>
           </Link>
           <div className="w-full md:w-1/2 px-2 mb-4">
             <div className="relative w-full h-96">
               <img src="/assets/images/event7.jpeg" alt="Weddings" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-5xl font-bold">Weddings - Coming Soon</div>
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-3xl font-bold">Weddings - Coming Soon</div>
             </div>
           </div>
           <div className="w-full md:w-1/2 px-2 mb-4">
             <div className="relative w-full h-96">
               <img src="/assets/images/event8.jpeg" alt="Concerts" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-5xl font-bold">Concerts - Coming Soon</div>
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-3xl font-bold">Concerts - Coming Soon</div>
             </div>
           </div>
         </div>

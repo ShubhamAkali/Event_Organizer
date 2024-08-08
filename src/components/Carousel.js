@@ -1,7 +1,6 @@
-// src/components/Carousel.js
 import React from 'react';
 import Slider from 'react-slick';
-import '../styles/carousel.css'; // Import your custom CSS
+import '../styles/carousel.css';
 
 const Carousel = () => {
   const settings = {
