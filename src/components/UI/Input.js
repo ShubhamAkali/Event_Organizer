@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Input = ({ type, name, value, onChange, placeholder, className }) => {
+const Input = ({ type, placeholder, value, onChange, className }) => {
   return (
     <input
       type={type}
-      name={name}
+      placeholder={placeholder}
       value={value}
       onChange={onChange}
-      placeholder={placeholder}
       className={className}
+      required
     />
   );
 };

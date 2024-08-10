@@ -1,13 +1,13 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import {thunk} from 'redux-thunk';
-import authReducer from './reducers/authReducer';
 import eventReducer from './reducers/eventReducer';
-import registrationReducer from './reducers/registrationReducer';
+import { authReducer, registrationReducer, forgotPasswordReducer } from './reducers/authReducer';
 
 const rootReducer = combineReducers({
   auth: authReducer,
   events: eventReducer,
   registration: registrationReducer,
+  forgotPassword: forgotPasswordReducer,
 });
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
